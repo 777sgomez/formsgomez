@@ -9,4 +9,6 @@ document.querySelector('form').addEventListener("submit", function(event) {
         `
         <li>${item}</li>
         `)
+        ul.innerHTML = template.join('');
+        body.appendChild(ul);
 })
